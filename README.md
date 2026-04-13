@@ -30,3 +30,30 @@ Create README.md
 ## 🎯 Результат
 
 Получен практический опыт тестирования API, работы с документацией и выявления дефектов.
+
+## 📸 Примеры тестирования
+
+### Получение списка пользователей (200)
+
+![GET users](screenshots/get_users_200.png)
+
+### Получение одного пользователя (200)
+
+![GET user](screenshots/get_user_200.png)
+
+### Создание пользователя (201)
+
+![POST user](screenshots/post_user_201.png)
+
+### Обновление пользователя (200)
+
+![PUT user](screenshots/put_user_200.png)
+
+### Удаление пользователя (204)
+
+![DELETE user](screenshots/delete_user_204.png)
+
+### Негативный тест (баг)
+
+![POST empty body](screenshots/post_user_empty_body_bug.png)
+
